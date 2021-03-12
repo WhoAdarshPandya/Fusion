@@ -1,13 +1,13 @@
-# fusion
+# fyusion
 
 > React Components for your upcoming website
 
-[![NPM](https://img.shields.io/npm/v/fusion.svg)](https://www.npmjs.com/package/fusion) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/fyusion.svg)](https://www.npmjs.com/package/fyusion) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save fusion
+npm install --save fyusion
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save fusion
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'fusion'
-import 'fusion/dist/index.css'
+import MyComponent from 'fyusion'
+import 'fyusion/dist/index.css'
 
 class Example extends Component {
   render() {
