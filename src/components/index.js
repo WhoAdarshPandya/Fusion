@@ -1,4 +1,4 @@
 /* eslint-disable prettier/prettier */
-import './index.css'
+import 'fusion/dist/index.css'
 
 export {Button} from './Button/Button'

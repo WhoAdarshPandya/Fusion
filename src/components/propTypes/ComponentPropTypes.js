@@ -3,5 +3,5 @@
 import propTypes from 'prop-types'
 
 export const ButtonPropType = {
-    name:propTypes.string
+    text:propTypes.string
 }
