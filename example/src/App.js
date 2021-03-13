@@ -1,12 +1,11 @@
 import React from 'react'
 
-import  {Button} from 'fusion'
-import 'fusion/dist/index.css'
+import {Button} from 'fusion'
 
 const App = () => {
   return (
     <>
-      <Button text="hello ji"/>
+      <Button text="et"/>
     </>
     )
 }
