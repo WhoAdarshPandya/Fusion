@@ -20,6 +20,13 @@ export const ButtonPropType = {
   href: propTypes.string
 }
 
+export const IconButtonPropType = {
+  onClick : propTypes.func,
+  color : propTypes.oneOf(['primary', 'secondary']),
+  disableRipple: propTypes.bool,
+  size: propTypes.oneOf(['large', 'small', 'medium']),
+}
+
 export const ToastPropType = {
-  text: propTypes.string
+  text: propTypes.string,
 }

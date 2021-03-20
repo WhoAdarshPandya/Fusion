@@ -1,3 +1,3 @@
-/* eslint-disable prettier/prettier */
+import './styles.css'
 
-export { Button } from './components'
+export { Button, IconButton } from './components'

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Button } from 'fusion'
+import { Button, IconButton } from 'fusion'
 
 const App = () => {
   return (
@@ -132,6 +132,13 @@ const App = () => {
       <Button color='secondary' variant='outlined' raised={true}>
         secondary outlined raised
       </Button>
+      <br/>
+      <IconButton size="small">photo</IconButton>
+      <IconButton size="large">photo</IconButton>
+      <IconButton color="primary">delete</IconButton>
+      <IconButton color="secondary" size="large">new_releases</IconButton>
+      <br/>
+      <IconButton >library_add</IconButton>
     </>
   )
 }
