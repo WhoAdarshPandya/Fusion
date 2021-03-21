@@ -8,6 +8,7 @@ export const IconButton = (
   { 
     children,
     size="medium",
+    variant='simple',
     onClick,
     color='',
     disableRipple= false 

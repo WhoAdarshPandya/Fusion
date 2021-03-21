@@ -1,3 +1,3 @@
 import './styles.css'
 
-export { Button, IconButton } from './components'
+export { Button, IconButton, Avatar } from './components'

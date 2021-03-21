@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Button, IconButton } from 'fusion'
+import { Button, IconButton,Avatar } from 'fusion'
 
 const App = () => {
   return (
@@ -134,11 +134,146 @@ const App = () => {
       </Button>
       <br/>
       <IconButton size="small">photo</IconButton>
-      <IconButton size="large">photo</IconButton>
       <IconButton color="primary">delete</IconButton>
       <IconButton color="secondary" size="large">new_releases</IconButton>
       <br/>
-      <IconButton >library_add</IconButton>
+      <IconButton onClick={e => alert('hell')}>library_add</IconButton>
+      <IconButton color="primary">lightbulb_outline</IconButton>
+      <IconButton color="primary">local_activity</IconButton>
+      <IconButton color="primary">home</IconButton>
+      <IconButton color="primary">chat</IconButton>
+      <IconButton color="primary">search</IconButton>
+      <IconButton color="primary">account_circle</IconButton>
+      <IconButton color="primary">send</IconButton>
+      <IconButton color="">thumb_up</IconButton>
+      <IconButton color="">thumb_down</IconButton>
+      <br/>
+      <Button
+        color='primary'
+        size="small"
+        onClick={(e) => {
+          console.log(e)
+        }}
+        startIcon="save"
+      >
+        save
+      </Button>
+      <Button
+        color='primary'
+        onClick={(e) => {
+          console.log(e)
+        }}
+        startIcon="save"
+      >
+        save
+      </Button>
+      <Button
+        color='primary'
+        startIcon="save"
+        size="large"
+        onClick={(e) => {
+          console.log(e)
+        }}
+      >
+        save
+      </Button>
+      <Button
+        color='inherit'
+        textColor='textColorPrimary'
+        startIcon="cloud_upload"
+        onClick={(e) => {
+          console.log(e)
+        }}
+      >
+        upload
+      </Button>
+      <br/>
+      <Button
+        color='secondary'
+        onClick={(e) => {
+          console.log(e)
+        }}
+        endIcon="delete"
+      >
+        delete
+      </Button>
+      <Button
+        color='secondary'
+        onClick={(e) => {
+          console.log(e)
+        }}
+        endIcon="send"
+      >
+        send
+      </Button>
+      <Button
+        color='secondary'
+        onClick={(e) => {
+          console.log(e)
+        }}
+        endIcon="add"
+      >
+        add
+      </Button>
+      <Button
+        color='secondary'
+        variant="outlined"
+        endIcon="cloud_upload"
+        onClick={(e) => {
+          console.log(e)
+        }}
+      >
+        upload
+      </Button>
+        <br/>
+      <Button
+        color='primary'
+        startIcon="save"
+        endIcon="save"
+      >
+        upload
+      </Button>
+      <hr/>
+      <Avatar src="https://images.unsplash.com/photo-1612869839957-b596b87356ae?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8NnNNVmpUTFNrZVF8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" onClick={e => console.log(e)}/>
+      <Avatar src="https://images.unsplash.com/photo-1613425269135-fb9f19ae7be8?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8NnNNVmpUTFNrZVF8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" onClick={e => console.log(e)}/>
+      <Avatar src="https://images.unsplash.com/photo-1489493585363-d69421e0edd3?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDh8NnNNVmpUTFNrZVF8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" onClick={e => console.log(e)}/>
+
+      <Avatar src="https://images.unsplash.com/photo-1585477280412-633abe639bd4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8c3Vuc2V0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" onClick={e => console.log(e)}/>
+      <Avatar src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8c3Vuc2V0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" onClick={e => console.log(e)}/>
+      <Avatar src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8c3Vuc2V0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" onClick={e => console.log(e)}/>
+      <Avatar src="https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NXx8c3Vuc2V0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" onClick={e => console.log(e)}/>
+      <Avatar src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8c3Vuc2V0fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" onClick={e => console.log(e)}/>
+      <Avatar src="https://images.unsplash.com/photo-1460627390041-532a28402358?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHN1bnNldHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" onClick={e => console.log(e)}/>
+      <Avatar src="https://images.unsplash.com/photo-1436891620584-47fd0e565afb?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHN1bnNldHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" onClick={e => console.log(e)}/>
+      <Avatar src="https://images.unsplash.com/photo-1498575637358-821023f27355?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fHN1bnNldHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" onClick={e => console.log(e)}/>
+      <br/>
+      <br/>
+      <Avatar src="https://randomuser.me/api/portraits/women/75.jpg"/>
+      <Avatar src="https://randomuser.me/api/portraits/women/44.jpg"/>
+      <Avatar src="https://randomuser.me/api/portraits/women/31.jpg"/>
+      <Avatar src="https://randomuser.me/api/portraits/women/40.jpg"/>
+      <Avatar src="https://randomuser.me/api/portraits/women/28.jpg"/>
+      <Avatar src="https://randomuser.me/api/portraits/women/42.jpg"/>
+      <Avatar src="https://randomuser.me/api/portraits/men/71.jpg"/>
+      <Avatar src="https://randomuser.me/api/portraits/men/61.jpg"/>
+      <Avatar src="https://randomuser.me/api/portraits/women/26.jpg"/>
+      <Avatar src="https://randomuser.me/api/portraits/men/10.jpg"/>
+      <Avatar src="https://randomuser.me/api/portraits/women/27.jpg"/>
+      <br/>
+      <br/>
+      <Avatar src="https://pbs.twimg.com/profile_images/1266056434187468801/g3S9WX8H_400x400.jpg" size="small" alt="sd"/>
+      <Avatar src="https://pbs.twimg.com/profile_images/1266056434187468801/g3S9WX8H_400x400.jpg" size="medium" alt="sd"/>
+      <Avatar src="https://pbs.twimg.com/profile_images/1266056434187468801/g3S9WX8H_400x400.jpg" size="large" alt="sd"/>
+      <br/>
+      <Avatar size="small" alt="sd">A</Avatar>
+      <Avatar size="medium" alt="sd">o</Avatar>
+      <Avatar size="large" alt="sd">n</Avatar>
+      <br/>
+      <Avatar size="small"/>
+      <Avatar size="medium"/>
+      <Avatar size="large"/>
+      <p>avatar group remaining</p>
+      <hr/>
     </>
   )
 }

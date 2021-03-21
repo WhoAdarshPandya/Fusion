@@ -12,7 +12,9 @@ export const Button = ({
   raised = false,
   size = 'medium',
   href = '',
-  variant = 'contained'
+  variant = 'contained',
+  startIcon = '',
+  endIcon = ''
 }) => {
   const [coords, setCoords] = useState({ x: -1, y: -1 })
   const [isRippling, setIsRippling] = useState(false)
@@ -59,9 +61,14 @@ export const Button = ({
           >
             {children}
           </a>
-        ) : (
-          children
-        )}
+        ) : ( 
+          <React.Fragment>
+            {!startIcon && !endIcon && children}
+            {startIcon && !endIcon && <div className="dan-text"><i className="material-icons">{startIcon}</i><span className="btn-text">{children}</span></div>}
+            {endIcon && !startIcon && <div className="dan-text"><span className="btn-text">{children}</span><i className="material-icons">{endIcon}</i></div>}
+            {startIcon && endIcon && <div className="dan-text"><i className="material-icons">{startIcon}</i><span className="btn-text">{children}</span><i className="material-icons">{endIcon}</i></div> }
+          </React.Fragment>
+        )} 
       </span>
     </button>
   )
