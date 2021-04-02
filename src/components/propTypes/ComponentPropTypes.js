@@ -19,31 +19,67 @@ export const ButtonPropType = {
   // ? done
   href: propTypes.string,
   // ? done
-  startIcon:propTypes.string,
+  startIcon: propTypes.string,
   // ? done
-  endIcon:propTypes.string
+  endIcon: propTypes.string
 }
 
 export const IconButtonPropType = {
   // * done
-  onClick : propTypes.func,
+  onClick: propTypes.func,
   // * done
-  color : propTypes.oneOf(['primary', 'secondary']),
+  color: propTypes.oneOf(['primary', 'secondary']),
   // * done
   disableRipple: propTypes.bool,
   // * done
   size: propTypes.oneOf(['large', 'small', 'medium']),
-  // * 
-  variant: propTypes.oneOf(['simple', 'fab']),
+  // *
+  variant: propTypes.oneOf(['simple', 'fab'])
 }
 
 export const AvatarPropType = {
+  // TODO done
   src: propTypes.string,
+  // todo done
   alt: propTypes.string,
-  onClick : propTypes.func,
-  size :  propTypes.oneOf(['large', 'small', 'medium'])
+  // todo done
+  onClick: propTypes.func,
+  // todo done
+  size: propTypes.oneOf(['large', 'small', 'medium'])
 }
 
 export const ToastPropType = {
-  text: propTypes.string,
+  text: propTypes.string
+}
+
+export const TextFieldPropType = {
+  // ? done
+  value: propTypes.string,
+  // ? done
+  variant: propTypes.oneOf(['standard', 'outlined', 'filled']),
+  // ? done
+  label: propTypes.string,
+  // ? done
+  autoComplete: propTypes.bool,
+  color: propTypes.oneOf([]),
+  // ? done
+  type: propTypes.oneOf(['email', 'number', 'password', 'text', 'url']),
+  // ? done
+  onClick: propTypes.func,
+  // ? done
+  onChange: propTypes.func,
+  // ? done
+  readOnly: propTypes.bool,
+  // ? done
+  disabled: propTypes.bool,
+  // ? done
+  helperText: propTypes.string,
+  // ? done
+  error: propTypes.bool,
+  // ? done
+  autoFocus: propTypes.func
+}
+
+export const SvgProviderPropTypes = {
+  color: propTypes.string
 }

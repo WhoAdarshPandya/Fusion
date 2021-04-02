@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth !important;
-  background: #eee !important;
+  background: #fff !important;
 }
 
 code {
